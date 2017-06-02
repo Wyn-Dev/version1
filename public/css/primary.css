@@ -1,0 +1,169 @@
+.small, footer {
+  font-family: "Arial Narrow",sans-serif;
+  text-align: center; }
+
+body, html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  background: #34495e; }
+
+p {
+  font-family: 'Poiret One', cursive; }
+
+.madeup, h3, .caption {
+  font-family: 'Poiret One', cursive;
+  font-size: 10em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5); }
+
+.style-title, .wyndev1, .wyndev2 {
+  position: relative;
+  font-size: 10em;
+  text-align: center;
+  flex-basis: 5%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #0000FF; }
+
+.caption-design, .caption {
+  color: #fff;
+  padding: 18px;
+  letter-spacing: 40%;
+  width: 100%;
+  text-align: center;
+  top: 35%; }
+
+#video-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url("/images/wyndev_logo_transparent.png") no-repeat;
+  background-size: cover;
+  transition: 1s opacity; }
+
+.parallax {
+  background-position: center;
+  /*position: fixed;*/
+  width: 100%;
+  margin-top: 18%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-flex;
+  height: auto;
+  position: relative;
+  z-index: -2; }
+
+table {
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  z-index: -2; }
+
+.wyndev1 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold; }
+
+.wyndev2 {
+  font-family: 'Ailerons', sans-serif; }
+
+h3 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 80%; }
+
+.container > header {
+  margin: 0 auto; }
+  .container > header h1 span {
+    display: block;
+    position: inherit;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ailerons', sans-serif;
+    letter-spacing: 80%;
+    padding: 1em 1em;
+    text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
+
+.divider-pic {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #fff;
+  min-height: 70%;
+  z-index: -.5;
+  background-color: black; }
+
+#i1 {
+  background-image: url("/images/art1.png"); }
+
+#i2 {
+  background-image: url("/images/art2.png"); }
+
+#i3 {
+  background-image: url("/images/miami-art1.jpg"); }
+
+.divider-container {
+  position: relative;
+  height: auto; }
+
+.divider-square {
+  background-color: #282E34;
+  color: #ddd;
+  text-align: center;
+  padding: 30px;
+  text-align: justify;
+  border: 2px solid white; }
+
+.image {
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin: 20px; }
+
+footer {
+  margin: 10px;
+  color: #ffffff; }
+
+@media screen and (max-width: 1025px) {
+  .container > header {
+    margin: 0 auto;
+    font-size: 70%;
+    text-align: right;
+    text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
+
+  .caption {
+    font-size: 3em; }
+
+  h1 span {
+    margin-top: 5%;
+    margin-bottom: 5%; }
+
+  .wyndev1, .wyndev2 {
+    font-size: 3em; }
+
+  h3 {
+    font-size: 1.3em; }
+
+  .divider-square {
+    padding: 50px 10px; } }
+
+/*# sourceMappingURL=primary.css.map */
