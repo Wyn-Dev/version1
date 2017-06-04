@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
 .small, footer {
   font-family: "Arial Narrow",sans-serif;
   text-align: center; }
@@ -76,7 +77,7 @@ table {
   font-weight: bold; }
 
 .wyndev2 {
-  font-family: 'Ailerons', sans-serif; }
+  font-family: 'Economica', sans-serif; }
 
 h3 {
   font-size: 3em;
@@ -96,7 +97,7 @@ h3 {
     font-weight: 300;
     text-align: center;
     color: #fff;
-    font-family: 'Ailerons', sans-serif;
+    font-family: 'Economica', sans-serif;
     letter-spacing: 80%;
     padding: 1em 1em;
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }

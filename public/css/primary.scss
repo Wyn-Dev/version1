@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
+
+
 $border: 2px solid white;
 
 .small {
@@ -98,7 +101,7 @@ table {
 
 .wyndev2 {
   @extend .style-title;
-  font-family: 'Ailerons', sans-serif;
+  font-family: 'Economica', sans-serif;
 }
 
 h3 {
@@ -121,7 +124,7 @@ h3 {
     font-weight: 300;
     text-align: center;
     color: #fff;
-    font-family: 'Ailerons', sans-serif;
+    font-family: 'Economica', sans-serif;
     letter-spacing: 80%;
     padding: 1em 1em;
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
