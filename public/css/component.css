@@ -109,7 +109,7 @@ li img {
 .gn-scroller {
 		position: absolute;
 		overflow-y: scroll;
-		width: 370px;
+		width: 300px;
 		height: 100%;
 
 }
@@ -167,7 +167,7 @@ li img {
 		transform: translateX(0px);
 }
 .gn-menu-wrapper.gn-open-all {
-		width: 330px
+		width: 300px
 }
 @media screen and (max-width: 320px) {
 	.gn-menu-wrapper.gn-open-all {
@@ -194,6 +194,6 @@ li img {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     #i1, #i2, #i3 {
-        background-attachment: scroll;
+        /*background-attachment: scroll;*/
     }
 }

@@ -102,8 +102,8 @@ h2 {
     text-align: center;
     color: #fff;
     font-family: 'Economica', sans-serif;
-    letter-spacing: 80%;
-    padding: 1em 1em;
+    letter-spacing: 50%;
+    padding: 0.5em 0.5em;
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
 
 .divider-pic {
@@ -125,6 +125,7 @@ h2 {
   background-image: url("/images/miami-art1.jpg"); }
 
 .divider-container {
+  position: relative;
   height: auto; }
 
 .divider-square {
@@ -145,15 +146,16 @@ footer {
   color: #ffffff;
   background-color: #000000; }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 730px) {
   .container > header {
-    margin: 0 auto;
-    font-size: 70%;
-    text-align: right;
-    text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
+    font-size: 90%; }
 
   .caption {
-    font-size: 3em; }
+    font-size: 4em;
+    padding-top: 30%; }
+
+  h1 span {
+    font-size: 1.3em; }
 
   .wyndev1, .wyndev2 {
     font-size: 3em; }
@@ -162,24 +164,12 @@ footer {
     font-size: 1.3em; }
 
   .divider-square {
-    padding: 50px 10px; } }
-@media screen and (max-width: 320px) {
-  .container > header {
-    margin: 0 auto;
-    font-size: 50%;
-    text-align: right;
-    text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
+    padding: 50px 10px; }
 
-  .caption {
-    font-size: 2em; }
-
-  .wyndev1, .wyndev2 {
-    font-size: 2em; }
-
-  h3 {
-    font-size: 1.1em; }
-
-  .divider-square {
-    padding: 50px 10px; } }
+  .divider-pic {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 25%; } }
 
 /*# sourceMappingURL=primary.css.map */
