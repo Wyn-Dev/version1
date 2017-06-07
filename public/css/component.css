@@ -140,7 +140,6 @@ li img {
 		speak: none;
 		-webkit-font-smoothing: antialiased;
 }
-
 .gn-icon-menu::before {
 		margin-left: -15px;
 		vertical-align: -2px;
@@ -169,6 +168,7 @@ li img {
 .gn-menu-wrapper.gn-open-all {
 		width: 300px
 }
+
 @media screen and (max-width: 320px) {
 	.gn-menu-wrapper.gn-open-all {
 			-webkit-transform: translateX(0px);
@@ -183,7 +183,6 @@ li img {
 			font-size: 1.1em;
 			margin: auto;
 	}
-
 	li img {
 		width: 70px;
 		align-items: center;
@@ -194,6 +193,6 @@ li img {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     #i1, #i2, #i3 {
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 }
