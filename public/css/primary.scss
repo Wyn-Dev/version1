@@ -4,7 +4,7 @@
 $border: 2px solid white;
 
 .small {
-  font-family: "Arial Narrow",sans-serif;
+  font-family: "Economica",sans-serif;
   text-align: center;
 }
 
@@ -40,12 +40,12 @@ p {
 
 .caption-design {
   color: #fff;
-  padding: 18px;
+  padding: 10%;
   letter-spacing: 40%;
 	// border: 2px solid #fff;
   width: 100%;
   text-align: center;
-  // position: absolute;
+  position: relative;
   top: 35%
 }
 
@@ -75,7 +75,7 @@ p {
   display: inline-flex;
   height: auto;
   position: relative;
-  z-index: -2;
+  // z-index: -2;
 }
 
 table {
@@ -85,7 +85,7 @@ table {
   justify-content: space-around;
   display: flex;
   align-items: center;
-  z-index: -2;
+  // z-index: -2;
 }
 
 // tbody {
@@ -133,15 +133,11 @@ h3 {
 
 .divider-pic {
   position: relative;
-  // opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	border: 2px solid #fff;
-  min-height: 70%;
-  // border: 2px solid #fff;
-  z-index: -.5;
+  min-height: 50%;
   background-color: black;
 }
 
@@ -159,12 +155,10 @@ h3 {
 .caption {
   @extend .caption-design;
   @extend .madeup;
-  // z-index: -2;
 }
 
 .divider-container {
   position: relative;
-  // z-index: -1;
   height: auto;
 }
 
@@ -202,13 +196,13 @@ footer {
 @media screen and (max-width: 1025px) {
 	.container > header {
 		margin: 0 auto;
-		// padding: 120px 50px;
 		font-size: 70%;
 		text-align: right;
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
 	}
   .caption {
     font-size: 3em;
+    padding: 10%;
   }
   h1 span {
   margin-top: 5%;
@@ -216,7 +210,6 @@ footer {
   }
   .wyndev1, .wyndev2 {
   font-size: 3em;
-  // z-index: -2;
   }
   h3 {
     font-size: 1.3em;

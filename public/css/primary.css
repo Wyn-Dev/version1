@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Economica);
 .small, footer {
-  font-family: "Arial Narrow",sans-serif;
+  font-family: "Economica",sans-serif;
   text-align: center; }
 
 body, html {
@@ -32,10 +32,11 @@ p {
 
 .caption-design, .caption {
   color: #fff;
-  padding: 18px;
+  padding: 10%;
   letter-spacing: 40%;
   width: 100%;
   text-align: center;
+  position: relative;
   top: 35%; }
 
 #video-background {
@@ -60,8 +61,7 @@ p {
   padding-bottom: 10px;
   display: inline-flex;
   height: auto;
-  position: relative;
-  z-index: -2; }
+  position: relative; }
 
 table {
   margin-top: 15%;
@@ -69,8 +69,7 @@ table {
   margin-right: auto;
   justify-content: space-around;
   display: flex;
-  align-items: center;
-  z-index: -2; }
+  align-items: center; }
 
 .wyndev1 {
   font-family: 'Poiret One', cursive;
@@ -108,9 +107,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #fff;
-  min-height: 70%;
-  z-index: -.5;
+  min-height: 50%;
   background-color: black; }
 
 #i1 {
@@ -152,7 +149,8 @@ footer {
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
 
   .caption {
-    font-size: 3em; }
+    font-size: 3em;
+    padding: 10%; }
 
   h1 span {
     margin-top: 5%;
