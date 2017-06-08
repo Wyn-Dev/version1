@@ -37,6 +37,7 @@
 		height: 60px;
 		font-size: 13px;
 		z-index: 500;
+		border-bottom: 2px solid black;
 }
 .gn-menu-main a {
 		display: block;
@@ -166,7 +167,7 @@ li img {
 		transform: translateX(0px);
 }
 .gn-menu-wrapper.gn-open-all {
-		width: 300px
+		width: 150px
 }
 
 @media screen and (max-width: 320px) {
