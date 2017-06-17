@@ -7,13 +7,13 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Economica);
 
-@font-face {
+/*@font-face {
 		font-weight: normal;
 		font-style: normal;
 		font-family: 'ecoicons';
 		src: url("../fonts/ecoicons/ecoicons.eot");
 		src: url("../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicons.woff") format("woff"), url("../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg");
-}
+}*/
 
 /* Icomoon.com */
 
@@ -66,12 +66,15 @@
 		background-color: #ffffff;
 		font-size: 2em;
 		margin: auto;
+		text-decoration: none;
+		
 }
 .gn-menu-main > li > a {
 		padding: 0 35px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: bold;
+		text-decoration: none;
 }
 
 li img {
