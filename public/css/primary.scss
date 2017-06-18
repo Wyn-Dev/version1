@@ -56,6 +56,11 @@ p {
   // height: 100%;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+
+
   background: url('/images/wyndev_logo_transparent.png') no-repeat;
   background-size: cover;
   transition: 1s opacity;
@@ -170,6 +175,7 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #ffffff;
+  border: 2px solid black;
 }
 
 .divider-square {

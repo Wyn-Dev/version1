@@ -3,6 +3,7 @@
 *::before {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
 		box-sizing: border-box;
 }
 @import url(https://fonts.googleapis.com/css?family=Economica);
@@ -67,7 +68,7 @@
 		font-size: 2em;
 		margin: auto;
 		text-decoration: none;
-		
+
 }
 .gn-menu-main > li > a {
 		padding: 0 35px;
@@ -89,6 +90,7 @@ li img {
 		-webkit-touch-callout: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
+		-o-user-select: none;
 		-webkit-user-select: none;
 		-khtml-user-select: none;
 		user-select: none;
@@ -105,9 +107,12 @@ li img {
 		background: white;
 		-webkit-transform: translateX(-60px);
 		-moz-transform: translateX(-60px);
+		-o-transform: translateX(-60px);
+
 		transform: translateX(-60px);
 		-webkit-transition: -webkit-transform 0.3s, width 0.3s;
 		-moz-transition: -moz-transform 0.3s, width 0.3s;
+		-o-transition: -moz-transform 0.3s, width 0.3s;
 		transition: transform 0.3s, width 0.3s;
 }
 .gn-scroller {
@@ -167,6 +172,7 @@ li img {
 .gn-menu-wrapper.gn-open-part {
 		-webkit-transform: translateX(0px);
 		-moz-transform: translateX(0px);
+		-o-transform: translateX(0px);
 		transform: translateX(0px);
 }
 .gn-menu-wrapper.gn-open-all {
@@ -177,6 +183,7 @@ li img {
 	.gn-menu-wrapper.gn-open-all {
 			-webkit-transform: translateX(0px);
 			-moz-transform: translateX(0px);
+			-o-transform: translateX(0px);
 			transform: translateX(0px);
 			width: 100%;
 	}

@@ -9,13 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
-   height="1200"
+   width="1473.4266"
+   height="734.54974"
    id="svg4157"
    version="1.1"
    inkscape:version="0.91 r13725"
-   viewBox="0 0 1600 1200"
+   viewBox="0 0 1473.4266 734.54974"
    sodipodi:docname="Wyndev.svg">
+  <title
+     id="title4141">Wyndev logo</title>
   <defs
      id="defs4159" />
   <sodipodi:namedview
@@ -26,16 +28,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.3"
-     inkscape:cx="108.33333"
-     inkscape:cy="383.33333"
+     inkscape:cx="58.476423"
+     inkscape:cy="564.6082"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
      inkscape:window-width="1877"
      inkscape:window-height="1056"
-     inkscape:window-x="43"
+     inkscape:window-x="1963"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata4162">
     <rdf:RDF>
@@ -44,14 +50,42 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title>Wyndev logo</dc:title>
+        <dc:date>6/17/2017</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Noel Irias</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Noel Irias</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wyndev.co</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Wyndev Irias</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Noel Irias</dc:title>
+          </cc:Agent>
+        </dc:contributor>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="layer1"
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     transform="translate(-56.523574,-253.39178)">
     <path
        style="fill:#a0a0a0;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 549.04395,581.11238 c -0.5021,-1.27413 -31.71882,-75.19805 -69.37053,-164.27542 -37.65173,-89.07733 -68.12502,-162.29145 -67.71839,-162.69802 0.40657,-0.40664 64.45707,-0.53274 142.33434,-0.28039 l 141.59514,0.45904 -71.23982,163.981 c -39.18185,90.18955 -72.01561,164.2396 -72.96383,164.55565 -0.94823,0.31624 -2.13486,-0.46779 -2.63691,-1.74197 z"

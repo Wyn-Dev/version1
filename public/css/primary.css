@@ -133,7 +133,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border: 2px solid black; }
 
 .divider-square {
   background-color: #BBC3C6;
