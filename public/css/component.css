@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
+
+
 *,
 *:after,
 *::before {
@@ -6,17 +9,7 @@
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
 }
-@import url(https://fonts.googleapis.com/css?family=Economica);
 
-/*@font-face {
-		font-weight: normal;
-		font-style: normal;
-		font-family: 'ecoicons';
-		src: url("../fonts/ecoicons/ecoicons.eot");
-		src: url("../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicons.woff") format("woff"), url("../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg");
-}*/
-
-/* Icomoon.com */
 
 .gn-menu-main,
 .gn-menu-main ul {
@@ -43,13 +36,13 @@
 .gn-menu-main a {
 		display: block;
 		height: 100%;
+		text-decoration: none;
 
 }
-.no-touch .gn-menu-main a:hover,
-.no-touch .gn-menu li.gn-search-item:hover,
-.no-touch .gn-menu li.gn-search-item:hover a {
+.no-touch .gn-menu-main a:hover {
 		background: #5f6f81;
 		color: white;
+
 }
 
 .gn-menu-main > li {
@@ -57,6 +50,7 @@
 		float: left;
 		height: 100%;
 		text-align: center;
+
 }
 /* icon-only trigger (menu item) */
 
@@ -176,7 +170,7 @@ li img {
 		transform: translateX(0px);
 }
 .gn-menu-wrapper.gn-open-all {
-		width: 150px
+		width: 160px
 }
 
 @media screen and (max-width: 320px) {
@@ -191,7 +185,7 @@ li img {
 			width: 130%
 	}
 	.gn-menu-main > li:last-child {
-			font-size: 1.1em;
+			font-size: 1.45em;
 			margin: auto;
 	}
 	li img {

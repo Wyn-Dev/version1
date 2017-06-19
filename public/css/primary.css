@@ -1,20 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Economica);
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
-.small, footer {
-  font-family: "Economica",sans-serif;
-  text-align: center; }
-
-body, html {
-  height: 100%;
-  margin: 0; }
-
-body {
-  background: #ffffff; }
-
-p {
-  font-family: 'Crimson Text', serif;
-  font-size: 1.5em; }
-
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 .madeup, h3, .caption {
   font-family: 'Poiret One', cursive;
   font-size: 10em;
@@ -24,7 +9,7 @@ p {
 
 .style-title, .wyndev1, .wyndev2 {
   position: relative;
-  font-size: 10em;
+  font-size: 12em;
   text-align: center;
   flex-basis: 5%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5);
@@ -32,13 +17,105 @@ p {
   white-space: nowrap;
   color: #3647a4; }
 
+.small, footer {
+  font-family: "Economica",sans-serif;
+  text-align: center; }
+
+body, html {
+  height: 100%;
+  margin: 0; }
+
+h2 {
+  font: 2em 'Poppins', cursive;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5); }
+
+h3 {
+  color: #fff;
+  text-align: center;
+  text-overflow: ellipsis;
+  letter-spacing: 5px;
+  white-space: nowrap; }
+
+p {
+  font: 1.5em 'Poppins', sans-serif; }
+
 .caption-design, .caption {
   color: #fff;
-  padding: 10%;
   width: 100%;
   text-align: center;
+  position: relative; }
+
+.madeup, h3, .caption {
+  font: bold 10em 'Poiret One', cursive;
+  text-align: center;
+  text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5); }
+
+.bars-container {
+  position: absolute;
+  display: inline-block;
+  width: 320px;
+  height: 320px;
+  transition: transform 400ms ease-in-out, height 400ms ease-in-out, content 600ms ease-in-out 300ms, border-left 600ms ease-in-out 300ms, border-right 800ms ease-in-out 300ms, border-top 600ms ease-in-out 300ms, border-bottom 800ms ease-in-out 300ms; }
+
+.bars {
+  margin: 0 0 0 20px;
+  background: #1e1e43;
+  height: 50px;
+  width: 10px;
   position: relative;
-  top: 45%; }
+  transition: .4s; }
+
+.bars:after {
+  background: #1e1e43;
+  content: "";
+  height: 10px;
+  width: 50px;
+  left: -20px;
+  position: absolute;
+  top: 20px;
+  transition: 1s; }
+
+.change .bars {
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg); }
+
+.change .bars3 {
+  -webkit-transform: rotate(-405deg);
+  transform: rotate(-405deg); }
+
+.change .bars-container {
+  /*transform: translate(200px,-10px) ;*/
+  height: 400px;
+  width: 320px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 0%; }
+
+.bars p {
+  opacity: 0;
+  font: 0em arial, sans-serif;
+  color: white;
+  transition: opacity 400ms ease-in-out 600ms, font 200ms ease-in-out; }
+
+.change .bars-container p {
+  font: 1.5em arial, sans-serif;
+  opacity: 1.0;
+  color: black; }
+
+.n1 {
+  display: flex;
+  position: relative;
+  margin-left: 60px;
+  font: 1.5em arial, san-serif;
+  color: red;
+  transition: font 600ms ease-in-out, color 600ms ease-in; }
+
+.change .n1 {
+  font: .85em arial, san-serif;
+  color: blue; }
 
 #video-background {
   position: fixed;
@@ -48,18 +125,17 @@ p {
   min-height: 100%;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url("/images/wyndev_logo_transparent.png") no-repeat;
-  background-size: cover;
-  transition: 1s opacity; }
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  background: url("/images/wynwoodblue.png") no-repeat;
+  background-size: cover; }
 
 .parallax {
   background-position: center;
-  /*position: fixed;*/
   width: 100%;
-  margin-top: 18%;
-  margin-bottom: 10px;
+  margin-top: 25%;
   padding-top: 10px;
-  padding-bottom: 10px;
   display: inline-flex;
   height: auto;
   position: relative; }
@@ -80,21 +156,6 @@ table {
 .wyndev2 {
   font-family: 'Economica', sans-serif; }
 
-h3 {
-  font-size: 3em;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 5px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  letter-spacing: 80%; }
-
-h2 {
-  font-family: 'Poiret One', cursive;
-  font-size: 2em;
-  text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5); }
-
 .container > header {
   margin: 0 auto; }
   .container > header h1 span {
@@ -105,7 +166,6 @@ h2 {
     text-align: center;
     color: #fff;
     font-family: 'Economica', sans-serif;
-    letter-spacing: 50%;
     padding: 0.5em 0.5em;
     text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
 
@@ -119,13 +179,13 @@ h2 {
   background-color: black; }
 
 #i1 {
-  background-image: url("/images/art1.png"); }
+  background-image: url("/images/Keyboard.png"); }
 
 #i2 {
-  background-image: url("/images/art2.png"); }
+  background-image: url("/images/drawing.png"); }
 
 #i3 {
-  background-image: url("/images/miami-art1.jpg"); }
+  background-image: url("/images/Data.png"); }
 
 .divider-container {
   position: relative;
@@ -133,15 +193,17 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #ffffff;
+  background-color: rgba(50, 50, 50, 0.85);
   border: 2px solid black; }
 
 .divider-square {
-  background-color: #BBC3C6;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #000000;
+  width: 33%;
   text-align: justify;
   align-items: center;
-  margin: 10px; }
+  padding: 20px;
+  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
 
 #mobile {
   background-color: #1E1E20;
@@ -192,7 +254,7 @@ h2 {
   background-image: url("/images/miami-art1.jpg"); }
 
 footer {
-  margin: 10px;
+  padding: 10px;
   color: #ffffff;
   background-color: #000000; }
 
@@ -214,7 +276,8 @@ footer {
     font-size: 1.3em; }
 
   .divider-square {
-    padding: 50px 10px; }
+    padding: 50px 10px;
+    width: 100%; }
 
   .divider-pic {
     position: static;
