@@ -12,8 +12,7 @@
   font-size: 12em;
   text-align: center;
   flex-basis: 5%;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5);
-  text-overflow: ellipsis;
+  text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
   color: #3647a4; }
 
@@ -26,7 +25,7 @@ body, html {
   margin: 0; }
 
 h2 {
-  font: 2em 'Poppins', cursive;
+  font: 2em 'Economica', cursive;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 15px 5px 10px rgba(0, 0, 0, 0.5); }
 
@@ -43,6 +42,7 @@ p {
 .caption-design, .caption {
   color: #fff;
   width: 100%;
+  padding-top: 15%;
   text-align: center;
   position: relative; }
 
@@ -85,7 +85,6 @@ p {
   transform: rotate(-405deg); }
 
 .change .bars-container {
-  /*transform: translate(200px,-10px) ;*/
   height: 400px;
   width: 320px;
   border-left: 2px solid black;
@@ -132,22 +131,17 @@ p {
   background-size: cover; }
 
 .parallax {
-  background-position: center;
   width: 100%;
-  margin-top: 25%;
-  padding-top: 10px;
+  margin-top: 20%;
   display: inline-flex;
   height: auto;
   position: relative; }
-
-table {
-  margin-top: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-  z-index: 100; }
+  .parallax table {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    display: flex;
+    z-index: 100; }
 
 .wyndev1 {
   font-family: 'Poiret One', cursive;
@@ -159,8 +153,9 @@ table {
 .container > header {
   margin: 0 auto; }
   .container > header h1 span {
-    display: block;
-    position: inherit;
+    margin-top: 10%;
+    display: flex;
+    position: absolute;
     font-size: 1em;
     font-weight: 300;
     text-align: center;
@@ -176,6 +171,7 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50%;
+  width: 100%;
   background-color: black; }
 
 #i1 {
@@ -188,22 +184,21 @@ table {
   background-image: url("/images/Data.png"); }
 
 .divider-container {
-  position: relative;
   height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(50, 50, 50, 0.85);
-  border: 2px solid black; }
+  background-color: rgba(255, 255, 255, 0.75); }
 
 .divider-square {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #000000;
-  width: 33%;
+  background-color: #000000;
+  color: #ACBACB;
   text-align: justify;
   align-items: center;
   padding: 20px;
-  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
+  margin: 20px;
+  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
+  border: 10px solid #ACBACB; }
 
 #mobile {
   background-color: #1E1E20;
@@ -215,10 +210,11 @@ table {
 
 #commerce {
   background-color: #3647a4;
-  color: #bbc3c6; }
+  color: #ffffff; }
 
 .web-dev {
   border: 2px solid black;
+  align-items: center;
   margin: 20px;
   padding: 10px; }
   .web-dev :hover {
