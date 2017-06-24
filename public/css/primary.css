@@ -175,13 +175,13 @@ p {
   background-color: black; }
 
 #i1 {
-  background-image: url("/images/Keyboard.png"); }
+  background-image: url("/images/sep-web.png"); }
 
 #i2 {
-  background-image: url("/images/drawing.png"); }
+  background-image: url("/images/sep-design.png"); }
 
 #i3 {
-  background-image: url("/images/Data.png"); }
+  background-image: url("/images/sep-data.png"); }
 
 .divider-container {
   height: auto;
@@ -191,18 +191,13 @@ p {
   background-color: rgba(255, 255, 255, 0.75); }
 
 .divider-square {
-  background-color: #000000;
-  color: #ACBACB;
+  background-color: #ffffff;
+  color: #3647A4;
   text-align: justify;
   align-items: center;
   padding: 20px;
   margin: 20px;
-  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
-  border: 10px solid #ACBACB; }
-
-#mobile {
-  background-color: #1E1E20;
-  color: #ffffff; }
+  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8); }
 
 #social {
   background-color: #BBC3C6;
@@ -230,7 +225,7 @@ p {
   align-items: center; }
 
 #sm1 {
-  img: url("/images/tech_icons.png");
+  img: url("/images/sl-tech.png");
   max-width: 100%;
   height: auto; }
 
@@ -266,7 +261,8 @@ footer {
     font-size: 1.3em; }
 
   .wyndev1, .wyndev2 {
-    font-size: 3em; }
+    font-size: 3em;
+    color: #ffffff; }
 
   h3 {
     font-size: 1.3em; }

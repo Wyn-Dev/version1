@@ -39,7 +39,7 @@
           </div>
         </nav>
       </li>
-      <li><img href="http://wyndev.co" src="/images/wyndev_logo_sm.png" alt="Wyndev"/></li>
+      <li><img href="http://wyndev.co" src="/images/wyndev.svg" alt="WYNDEV"/></li>
       <li>WEB. DESIGN. DATA.</li>
     </ul>
   </div>
@@ -65,7 +65,7 @@
   <div class="divider-container">
     <div class="divider-square">
       <div id="services" >
-				<h2>WEB.  DESIGN.  DATA</h2>
+				<h2>WEB.  DESIGN.  DATA.</h2>
           <p>Nimble, efficient, quick, we respond quickly to your web servicing needs. We create partnerships, we are in it together. Your success is our goal, we have the tools, knowledge, and skills to help you make the most of the web.</p>
       </div>
     </div>
@@ -75,11 +75,11 @@
     	<div class="caption">WEB</div>
   </div>
   <div class="divider-container">
-    	<div id="mobile" class="divider-square">
+    	<div id="web" class="divider-square">
         <!-- <div id="sm1" class="image-insert" alt=>
       </div> -->
       <h2>Web</h2>
-        <p>How the web works is already different from just a few years ago. Websites were designed for computer users, but did you know that as of 2014, 60% of internet visits happen on mobile devices? That numbe is increasing, and it's important to make sure your website works for the mobilee market. Check out these other stats:
+        <p>How the web works is already different from just a few years ago. Websites were designed for computer users, but did you know that as of 2014, 60% of internet visits happen on mobile devices? That number is increasing, and it's important to make sure your website works for the mobile market. Check out these other stats:
         <ul>
           <li><a href="#">OPERATING SYSTEM</a></li>
           <li><a href="#">BROWSER</a></li>
@@ -89,22 +89,24 @@
           <div class="divider-square">
             <!-- <div class="web-dev"> -->
               <h2>Web Development</h2>
+              <div class="bars-outer" onclick="myFunction(this)">
+                <div class="bars-container">
+                  <div class="n1"><h1>Web Development</h1></div>
+                    <div class="bars3"></div>
+                    <div class="bars "></div>
+                      <p>With every project, we start with you. We spend time to understand what the goals are and how we can help you acheive them.</p>
+                  </div>
+                </div>
             <!-- </div> -->
               <p>Mobile Design <br>
               Social Media <br>
               E-Commerce <br>
               Marketing <br>
               </p>
+
           </div>
     	</div>
-  <!-- <div class="bars-outer" onclick="myFunction(this)">
-    <div class="bars-container">
-      <div class="n1"><h1>Web Development</h1></div>
-        <div class="bars3"></div>
-        <div class="bars "></div>
-          <p>With every project, we start with you. We spend time to understand what the goals are and how we can help you acheive them.</p>
-      </div>
-    </div> -->
+
 
 
 <!-- DESIGN----------------------------------------------------------------- -->
@@ -162,11 +164,8 @@
   <div class="divider-square">
   <h2>Find us on:</h2>
   <ul>
-  <li><a href="http://linkedin.com">Linkedin</a></li>
-  <li><a href="http://instagram.com">Instagram</a></li>
-  <li><a href="http://twitter.com">Twitter</a></li>
-  <li><a href="http://snapchat.com">Snapchat</a></li>
-  <li><a href="http://youtube.comm">Youtube</a></li>
+    <li><img href="http://instagram.com">Instagram</a></li>
+    <li><a href="http://youtube.comm">Youtube</a></li>
   </ul>
   <!-- <p>Google Partner Certified</p>
   <p>Google SEO Certified</p>
@@ -188,8 +187,12 @@
   new gnMenu( document.getElementById( 'gn-menu' ) );
   </script>
   <script type="text/javascript">
-  window.sr = ScrollReveal();
-  sr.reveal('.divider-square');
+      window.sr = ScrollReveal();
+        sr.reveal('.divider-square', {duration:'800', reset: true, });
+        sr.reveal('.wyndev1', {origin: 'bottom', duration: '1000', reset: true, rotate: { x: 0, y: 135, z: 0 }});
+        sr.reveal('.wyndev2', {origin: 'left', duration: '3000', reset: true, rotate: { x: 0, y: 90, z: 0 }});
+        sr.reveal('.caption', {origin: 'right', duration: '3000', reset: true, rotate: { x: 90, y: 0, z: 0 }});
+
   </script>
   <script>
   	  function myFunction(x) {
