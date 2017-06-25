@@ -180,6 +180,11 @@
   <script>
   new gnMenu( document.getElementById( 'gn-menu' ) );
   </script>
+  <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+  </script>
   <script type="text/javascript">
       window.sr = ScrollReveal();
         sr.reveal('.segment', {duration:'800', reset: true, });
@@ -187,10 +192,6 @@
         sr.reveal('.wyndev2', {origin: 'left', duration: '3000', reset: true, rotate: { x: 0, y: 90, z: 0 }});
         // sr.reveal('.caption', {origin: 'right', duration: '3000', reset: true, rotate: { x: 90, y: 0, z: 0 }});
   </script>
-  <script>
-  	  function myFunction(x) {
-    	  x.classList.toggle("change");
-  		}
-  </script>
+
   </body>
 </html>
