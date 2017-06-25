@@ -197,8 +197,8 @@ li img {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-/*@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
     #i1, #i2, #i3 {
         background-attachment: scroll;
     }
-}*/
+}
