@@ -74,8 +74,9 @@
 
 li img {
 	width: 110px;
-	padding-left: 10px;
-	padding-top: 5px;
+	/*padding-left: 10px;*/
+  margin-left: 10px;
+	padding: 2px 0 5px 0;
 }
 
 .gn-menu-main li.gn-trigger {
@@ -173,7 +174,7 @@ li img {
 		width: 160px
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.gn-menu-wrapper.gn-open-all {
 			-webkit-transform: translateX(0px);
 			-moz-transform: translateX(0px);
@@ -185,7 +186,7 @@ li img {
 			width: 130%
 	}
 	.gn-menu-main > li:last-child {
-			font-size: 1.45em;
+			font-size: 1.25em;
 			margin: auto;
 	}
 	li img {

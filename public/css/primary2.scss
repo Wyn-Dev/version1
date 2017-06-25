@@ -9,16 +9,7 @@ $border: 2px solid white;
   text-align: center;
   text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.style-title {
-  position: relative;
-  font-size: 12em;
-  text-align: center;
-  flex-basis: 5% ;
-	// text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black , 15px 5px 10px rgba(0, 0, 0, 0.5) ;
-  text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-  color: #3647a4;
-}
+
 .small {
   font-family: "Economica",sans-serif;
   text-align: center;
@@ -32,7 +23,6 @@ margin: 0;
 h2 {
   font: 2em 'Economica', cursive;
   text-align: center;
-	// text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black , 15px 5px 10px rgba(0, 0, 0, 0.5) ;
 }
 
 h3 {
@@ -67,83 +57,6 @@ p {
   @extend .madeup;
 }
 
-.bars-container {
-  position: absolute;
-  display: inline-block;
-  width: 320px;
-  height: 320px;
-  transition: transform 400ms ease-in-out, height 400ms ease-in-out,
-   content 600ms ease-in-out 300ms, border-left 600ms ease-in-out 300ms, border-right 800ms ease-in-out 300ms, border-top 600ms ease-in-out 300ms, border-bottom 800ms ease-in-out 300ms;
-}
-
-.bars {
-  margin: 0 0 0 20px;
-  background: #1e1e43;
-  height: 50px;
-  width: 10px;
-  position: relative;
-  transition: .4s;
-
-}
-.bars:after {
-  background: #1e1e43;
-  content: "";
-  height: 10px;
-  width: 50px;
-  left: -20px;
-  position: absolute;
-  top: 20px;
-  transition: 1s;
-}
-.change .bars {
-  -webkit-transform: rotate(-135deg) ;
-  transform: rotate(-135deg) ;
-
-}
-
-.change .bars3 {
-  -webkit-transform: rotate(-405deg) ;
-  transform: rotate(-405deg) ;
-}
-
-.change .bars-container {
-  height: 400px;
-  width: 320px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-radius: 0%;
-}
-
-.bars p {
-  opacity: 0;
-  font: 0em arial, sans-serif;
-  color: white;
-  transition: opacity 400ms ease-in-out 600ms, font 200ms ease-in-out;
-}
-.change .bars-container p {
-  font: 1.5em arial, sans-serif;
-  opacity: 1.0;
-  color: black;
-}
-
-.n1 {
-  display: flex;
-  position: relative;
-  margin-left: 60px;
-  font: 1.5em arial, san-serif;
-  color: red;
-  transition: font 600ms ease-in-out, color 600ms ease-in;
-}
-
-.change .n1 {
-  font: .85em arial, san-serif;
-  color: blue;
-}
-
-
-
 #video-background {
   position: fixed;
   top: 50%;
@@ -159,46 +72,31 @@ p {
   background-size: cover;
 }
 
-.parallax {
-  width: 100%;
-  margin-top: 20%;
-  display: inline-flex;
-  height: auto;
-  position: relative;
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-around;
+.header-overlay {
   display: flex;
-  z-index: 100;
+  position: relative;
+  justify-content: space-around;
+  width: 100%;
+  height: 800px;
+  margin-top: 20%;
+  font-size: 5em;
+  text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
+  color: #3647a4;
 }
+
+.overlay  {
+  // width: 100%;
 }
 
 .wyndev1 {
-  @extend .style-title;
+  flex: 1 1 0;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
 .wyndev2 {
-  @extend .style-title;
-  font-family: 'Economica', sans-serif;
-}
+  flex: 1 1 0;
 
-.container > header {
-	margin: 0 auto;
-  h1 span {
-    margin-top: 10%;
-    display: flex;
-    position: absolute;
-    font-size: 1em;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    font-family: 'Economica', sans-serif;
-    padding: 0.5em 0.5em;
-    text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
-  }
+  font-family: 'Economica', sans-serif;
 }
 
 .divider-pic {
@@ -212,6 +110,8 @@ table {
   background-color: black;
 }
 
+
+
 #i1 {
     background-image: url("/images/sep-web.png");
     flex: 1 1 0;
@@ -223,7 +123,7 @@ table {
     background-image: url("/images/sep-data.png");
 }
 
-.divider-container {
+.chapter {
   height: auto;
   display: flex;
   justify-content: center;
@@ -231,24 +131,51 @@ table {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.divider-square {
+.segment {
   background-color: #ffffff;
   color: #3647A4;
   // width: 50%;
-  // justify-content: center;
+  justify-content: center;
   text-decoration: none;
   text-align: justify;
-  align-items: center;
+  // align-items: center;
   padding: 20px;
   margin: 20px;
   box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
   // border: 10px solid #ACBACB;
 }
+.one {
+  background-color: #1E1E20;
+  color: #ffffff;
+  flex: 1 1 0;
+}
+.two {
+  background-color: #A0A0A0;
+  color: #000000;
+  flex: 1 1 0;
+
+}
+.three {
+  background-color: #3647A4;
+  color: #ffffff;
+  flex: 1 1 0;
+}
+
+.button {
+  text-decoration-line: none;
+  text-align: center;
+  text-decoration: none;
+  font: bold 1.45em "Economica";
+  padding: 20px;
+  box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
+  flex: 1 2 200px;
+}
+
 
 #web-insert {
   // background-color: #1E1E20;
   // color: #ffffff;
-  flext: 1 1 0;
+  flex: 1 1 0;
 }
 
 #social {
@@ -324,7 +251,7 @@ footer {
 //        m       m                    //
 //        m       m                    //
 // MEDIA RULES----------------------------
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 320px) {
 	.container > header {
 		font-size: 90%;
 	}
@@ -332,17 +259,14 @@ footer {
     font-size: 4em;
     padding-top: 30%;
   }
-  h1 span {
-  font-size: 1.3em;
-  }
   .wyndev1, .wyndev2 {
-  font-size: 3em;
+  font-size: 1em;
   color: #ffffff;
   }
   h3 {
     font-size: 1.3em;
   }
-  .divider-square {
+  .segment {
     padding:50px 10px;
     width: 100%;
   }
