@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Economica);
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-$border: 2px solid white;
 
 .madeup {
   font-family: 'Poiret One', cursive;
@@ -99,15 +98,12 @@ p {
 
 #i1 {
     background-image: url("/images/sep-web.png");
-    // flex: 1 1 0;
 }
 #i2 {
     background-image: url("/images/sep-design.png");
-    // flex: 1 1 0;
 }
 #i3{
     background-image: url("/images/sep-data.png");
-    // flex: 1 1 0;
 }
 
 .chapter {
@@ -118,15 +114,14 @@ p {
 }
 
 .segment {
-  background-color: #ffffff;
-  color: #3647A4;
+  background-color: #000000;
+  color: #ffffff;
   justify-content: center;
   text-align: center;
   padding: 20px;
   margin: 20px;
-  box-shadow: 15px 10px 10px rgba(0, 255, 255, 0.8);
-  // border-radius: 1rem ;
-
+  box-shadow: 15px 10px 10px rgba(0, 177,181, 0.8);
+  border-radius: 2rem;
 }
 .one {
   background-color: #1E1E20;
@@ -145,7 +140,15 @@ p {
   background-color: #3647A4;
   color: #ffffff;
 }
+.four {
+  @extend .one;
+  background-color: #ffffff;
+  color: #000000;
+}
 
+.segment.four > img {
+  border: solid 2px black;
+}
 .button {
   text-decoration-line: none;
   background-color: #00ffff;
@@ -155,17 +158,15 @@ p {
   font: bold 1.45em "Economica";
   padding: 20px;
   width: 50%;
-  // margin: 10px;
-  // justify-content: center;
   box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.8);
-  // flex: 1 1 0;
   display: block;
 }
 
+.social img {
+  height: 100px;
+  width: 100px;
+}
 
-
-
-// FOOTER----------------------------------------------------------------
 footer {
   @extend .small;
 	padding: 10px;
@@ -173,18 +174,7 @@ footer {
   background-color: #000000;
 }
 
-// //////////////////////////////////////
-//                                     //
-//        mm     mm                    //
-//        m  m  m m                    //
-//        m   m   m                    //
-//        m       m                    //
-//        m       m                    //
-// MEDIA RULES----------------------------
 @media screen and (max-width: 768px) {
-	// .container > header {
-	// 	font-size: 90%;
-	// }
   .caption {
     font-size: 4em;
     padding-top: 30%;
@@ -196,15 +186,8 @@ footer {
   h3 {
     font-size: 1.3em;
   }
-  .segment {
-    padding:50px 10px;
-    width: 100%;
-  }
   .divider-pic {
     position: static;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     min-height: 25%;
   }
 }
