@@ -154,6 +154,9 @@ footer {
   background-color: #000000; }
 
 @media screen and (max-width: 800px) {
+  .header-overlay {
+    margin-top: 5%;
+  }
   .caption {
     font-size: 4em; }
 
@@ -166,6 +169,6 @@ footer {
 
   .divider-pic {
     position: static;
-    min-height: 25%; } }
+    min-height: 50%; } }
 
 /*# sourceMappingURL=primary.css.map */
