@@ -81,7 +81,9 @@ p {
   font: bold 10em 'Poiret One', cursive;
   text-align: center;
   text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
-  flex: 1 1 0; }
+  flex: 1 1 0;
+  border: solid 2px white;
+  margin: auto; }
 
 #i1 {
   background-image: url("/images/sep-web.png"); }
@@ -96,19 +98,23 @@ p {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.75); }
+  background-color: rgba(255, 255, 255, 0.95); }
 
 .segment {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   justify-content: center;
   text-align: center;
   padding: 20px;
-  margin: 20px;
-  box-shadow: 15px 10px 10px rgba(0, 177, 181, 0.8);
-  border-radius: 2rem; }
+  margin: 20px; }
+
+.alpha {
+  flex: 1 1 320px;
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .one, .two, .three, .four {
+  border-radius: 2rem;
+  box-shadow: 15px 10px 10px rgba(0, 177, 181, 0.8);
   background-color: #1E1E20;
   color: #ffffff;
   flex: 1 1 320px; }
@@ -136,6 +142,7 @@ p {
   text-decoration-line: none;
   background-color: #00ffff;
   border-radius: 1rem;
+  margin: auto;
   text-align: center;
   text-decoration: none;
   font: bold 1.45em "Economica";
@@ -155,8 +162,8 @@ footer {
 
 @media screen and (max-width: 800px) {
   .header-overlay {
-    margin-top: 5%;
-  }
+    margin-top: 5%; }
+
   .caption {
     font-size: 4em; }
 
