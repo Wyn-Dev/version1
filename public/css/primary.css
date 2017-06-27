@@ -111,7 +111,7 @@ p {
 .one, .two, .three, .four {
   background-color: #1E1E20;
   color: #ffffff;
-  flex: 1 1 0; }
+  flex: 1 1 320px; }
 
 .two {
   background-color: #A0A0A0;
@@ -153,7 +153,7 @@ footer {
   color: #ffffff;
   background-color: #000000; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 800px) {
   .caption {
     font-size: 4em; }
 

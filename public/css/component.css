@@ -46,7 +46,7 @@
 		background: #5f6f81;
 		color: white;
     letter-spacing: 10px;
-    
+
 }
 
 .gn-menu-main > li {
@@ -78,14 +78,13 @@
 
 li img {
 	width: 110px;
-	/*padding-left: 10px;*/
   margin-left: 10px;
 	padding: 2px 0 5px 0;
 }
 
 .gn-menu-main li.gn-trigger {
 		position: relative;
-		width: 60px;
+		width: 130px;
 		-webkit-touch-callout: none;
 		-moz-user-select: none;
 		-ms-user-select: none;
