@@ -81,9 +81,7 @@ p {
   font: bold 10em 'Poiret One', cursive;
   text-align: center;
   text-shadow: 15px 5px 10px rgba(0, 0, 0, 0.5);
-  flex: 1 1 0;
-  border: solid 2px white;
-  margin: auto; }
+  flex: 1 1 0; }
 
 #i1 {
   background-image: url("/images/sep-web.png"); }
