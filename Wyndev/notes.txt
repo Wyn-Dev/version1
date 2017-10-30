@@ -1,0 +1,16 @@
+Steps to creating an animation:
+
+1. Plan
+  - Divide into steps, lanes, frames, whatever you waant to call it.
+2. Define each frame
+  - Define by the options you have to animate 
+    - translate, scale, rotate, skew, perspective, matrix
+3. Draw each frame
+  - DO NOT SKIP AHEAD!!!!
+  - It can get overwhelming, keep calm
+  - Once you complete one, then the next
+4. Refactor
+  - your code might look extremely sloppy
+  - Step away, seriously, you've been in the matrix, it's hard to understand what you've experienced
+  - This is similar to writing a book, or an article, or any creative endeavour. You write junky sloppy stuff, you step away and crituque your own content, it loks hideous to you. No creative thinks there first pass is awesome, it takes a few edits
+5. Clean your code
